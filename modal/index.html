@@ -3,118 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/style.css">
   <script>document.documentElement.className += ' js';</script>
   <title>Animais Fantásticos</title>
 </head>
 <body>
-  <nav class="menu" data-menu="suave">
-    <ul>
-      <li><a href="#animais">Animais</a></li>
-      <li><a href="#faq">Faq</a></li>
-      <li><a href="#contato">Contato</a></li>
-      <li><a href="https://github.com/joaoxavier-ctrl">Dev</a></li>
-    </ul>
-  </nav>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <ul>
+        <li><a href="#animais">Animais</a></li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login</a></li>
+      </ul>
+    </nav>
 
-  <section class="grid-section animais" data-anime="scroll" id="animais">
-    <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class="animais-lista" data-tab="menu">
-      <li>
-        <img src="img/imagem1.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/imagem2.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/imagem3.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/imagem4.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/imagem5.jpg" alt="">
-      </li>
-      <li>
-        <img src="img/imagem6.jpg" alt="">
-      </li>
-    </ul>
+    <section class="grid-section animais" data-anime="scroll" id="animais">
+      <h1 class="titulo">Animais Fantásticos</h1>
+      <ul class="animais-lista" data-tab="menu">
+        <li>
+          <img src="img/imagem1.jpg" alt="">
+        </li>
+        <li>
+          <img src="img/imagem2.jpg" alt="">
+        </li>
+        <li>
+          <img src="img/imagem3.jpg" alt="">
+        </li>
+        <li>
+          <img src="img/imagem4.jpg" alt="">
+        </li>
+        <li>
+          <img src="img/imagem5.jpg" alt="">
+        </li>
+        <li>
+          <img src="img/imagem6.jpg" alt="">
+        </li>
+      </ul>
 
-    <div class="animais-descricao" data-tab="content">
-      <section data-anime="show-right">
-        <h2>Raposa</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
-      </section>
+      <div class="animais-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Raposa</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
+        </section>
 
-      <section data-anime="show-right">
-        <h2>Esquilo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
-      </section>
+        <section data-anime="show-right">
+          <h2>Esquilo</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
+        </section>
 
-      <section data-anime="show-down">
-        <h2>Urso</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
-      </section>
+        <section data-anime="show-down">
+          <h2>Urso</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
+        </section>
 
-      <section data-anime="show-down">
-        <h2>Lobo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
-      </section>
+        <section data-anime="show-down">
+          <h2>Lobo</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
+        </section>
 
-      <section data-anime="show-right">
-        <h2>Macaco</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
-      </section>
+        <section data-anime="show-right">
+          <h2>Macaco</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
+        </section>
 
-      <section data-anime="show-down">
-        <h2>Leão</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
-      </section>
+        <section data-anime="show-down">
+          <h2>Leão</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dicta a facilis sequi aliquid perspiciatis possimus? Ipsam quam eveniet deleniti! Mollitia a temporibus natus nostrum sapiente non rem, numquam suscipit!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugit porro laboriosam quidem provident excepturi ratione placeat ex esse. Ab numquam nobis accusantium at sequi! Quas ducimus ut similique ex!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, explicabo?</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="grid-section faq" data-anime="scroll" id="faq">
+      <h1 class="titulo">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual a idade dos animais?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eveniet tenetur recusandae voluptatibus excepturi. Amet, quisquam quo. Quo, dolor earum.</dd>
+        <dt>Eles são fantasticos?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores mollitia saepe sint atque optio nam provident, a non?</dd>
+        <dt>Qual a diferença?</dt>
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nesciunt commodi deleniti tempora, dignissimos illo sit magni, accusantium praesentium sequi quis, ducimus fugit?</dd>
+        <dt>Como proteger?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro placeat, reiciendis vel dolores doloremque dolorum repudiandae ea nam, incidunt in dolor beatae.</dd>
+      </dl>
+    </section>
+
+    <section class="grid-section contato"data-anime="scroll" id="contato">
+      <h1 class="titulo">Contato</h1>
+      <div class="mapa">
+        <img src="img/mapa.png" alt="">
+      </div>
+      <ul class="dados">
+        <li>joao.xavier21@gmail.com</li>
+        <li>+55 (11) 9XXXX-XXXX</li>
+        <li>Rua Logo alí, nº3</li>
+        <li>Itatiba - SP</li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <p>Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+      </form>
+      <button type="submit">Entrar</button>
     </div>
   </section>
-
-  <section class="grid-section faq" data-anime="scroll" id="faq">
-    <h1 class="titulo">FAQ</h1>
-    <dl class="faq-lista" data-anime="accordion">
-      <dt>Qual a idade dos animais?</dt>
-      <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eveniet tenetur recusandae voluptatibus excepturi. Amet, quisquam quo. Quo, dolor earum.</dd>
-      <dt>Eles são fantasticos?</dt>
-      <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam asperiores mollitia saepe sint atque optio nam provident, a non?</dd>
-      <dt>Qual a diferença?</dt>
-      <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nesciunt commodi deleniti tempora, dignissimos illo sit magni, accusantium praesentium sequi quis, ducimus fugit?</dd>
-      <dt>Como proteger?</dt>
-      <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro placeat, reiciendis vel dolores doloremque dolorum repudiandae ea nam, incidunt in dolor beatae.</dd>
-    </dl>
-  </section>
-
-  <section class="grid-section contato"data-anime="scroll" id="contato">
-    <h1 class="titulo">Contato</h1>
-    <div class="mapa">
-      <img src="img/mapa.png" alt="">
-    </div>
-    <ul class="dados">
-      <li>joao.xavier21@gmail.com</li>
-      <li>+55 (11) 9XXXX-XXXX</li>
-      <li>Rua Logo alí, nº3</li>
-      <li>Itatiba - SP</li>
-    </ul>
-  </section>
-
-  <footer class="copy">
-    <p>Todos os direitos reservados.</p>
-  </footer>
   <script type="module" src="js/script.js"></script>
 </body>
 </html>
