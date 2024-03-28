@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <style>
+        label{
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-bottom: .5rem;
+            margin-top: 1rem;
+        }
+        form{
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, textarea{
+            width: 100%;
+            box-sizing: border-box;
+            padding: .5rem;
+            border: 2px solid black;
+            font-size: 1rem;
+            margin-bottom: .5rem;
+        }
+        textarea{
+            height: 150px;
+        }
+        .invalido{
+            border-color: red;
+        }
+    </style>
+
+    <h1>Formulario</h1>
+
+    <form name="contato" id="contato">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required>
+        <span class="erro"></span>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <span class="erro"></span>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" ></textarea>
+        <select name="cores" id="cores" >
+            <option value="blue">Azul</option>
+            <option value="red">Vermeho</option>
+        </select>
+        <input type="color">
+        <input type="date">
+        <input type="number">
+        <input type="range">
+        <input type="password">
+    </form>
+    <span class="texto"></span>
+    <script src="js/script.js"></script>
+</body>
+</html>
